@@ -18,7 +18,11 @@ cssStyle.color = "Orange";
   cssStyle.color = "Black";
 }
 ReactDOM.render(
-<h1>hey everyone, <span style={ cssStyle }> { greeting } </span> </h1>,
+  <>
+  <div>
+<h1>hey everyone, <span style={ cssStyle }> { greeting } </span> </h1>
+</div>
+</>,
   document.getElementById('root')
 );
 
