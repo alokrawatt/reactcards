@@ -5,7 +5,7 @@ import name, { homeTown, myNames } from "./App";
 
 reactDom.render(
   <>
-    <ol>
+    <ul>
       <li>Heyssoo..</li>
       <li> {name} </li>
       <li> {homeTown} </li>
@@ -16,7 +16,7 @@ reactDom.render(
       {/* <li> {anyname.default} </li>
       <li> {anyname.homeTown} </li>
       <li> {anyname.myNames()} </li> */}
-    </ol>
+    </ul>
   </>,
   document.getElementById("root")
 );
