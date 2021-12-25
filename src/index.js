@@ -1,9 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from './App'
+import react from "react";
+import reactDom from "react-dom";
+import name, { homeTown, myNames } from "./App";
 
-ReactDOM.render(
-  <App/>,
+reactDom.render(
+  <>
+    <ol>
+      <li>Heyssoo..</li>
+      <li> {name} </li>
+      <li> {homeTown} </li>
+      <li> {myNames()} </li>
+    </ol>
+  </>,
   document.getElementById("root")
 );
