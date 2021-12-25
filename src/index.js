@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from './App'
+import reactDom from "react-dom";
+import App from "./App";
+import {add,sub,mult,div} from './Calc'
 
-ReactDOM.render(
+reactDom.render(
   <App/>,
-  document.getElementById("root")
-);
+document.getElementById('root'));
