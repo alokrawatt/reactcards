@@ -1,9 +1,22 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css";
-import App from './App'
+import react from "react";
+import reactDom from "react-dom";
+import name, { homeTown, myNames } from "./App";
+// import * as anything from './App';
 
-ReactDOM.render(
-  <App/>,
+reactDom.render(
+  <>
+    <ul>
+      <li>Heyssoo..</li>
+      <li> {name} </li>
+      <li> {homeTown} </li>
+      <li> {myNames()} </li>
+
+
+{/* //when adding all functions at once */}
+      {/* <li> {anyname.default} </li>
+      <li> {anyname.homeTown} </li>
+      <li> {anyname.myNames()} </li> */}
+    </ul>
+  </>,
   document.getElementById("root")
 );
