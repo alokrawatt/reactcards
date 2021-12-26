@@ -1,6 +1,6 @@
 import react from "react";
 
-function Card(props) {
+function Cards(props) {
     console.log(props);
     return (
       <>
@@ -20,4 +20,4 @@ function Card(props) {
     );
   }
 
-  export default Card;
+  export default Cards;
