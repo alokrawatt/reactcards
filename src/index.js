@@ -1,6 +1,7 @@
 import react from "react";
 import ReactDOM from "react-dom";
 import Cards from "./Cards";
+import './index.css';
 
 function Card(props) {
   console.log(props);
